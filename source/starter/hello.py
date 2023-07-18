@@ -7,5 +7,5 @@ log = logging.getLogger("starter")
 
 def say(name: str) -> str:
     """Function Docstring."""
-    log.info("Hello %s", name)
+    log.info("Returning: [Hello %s]", name)
     return f"Hello {name}"
